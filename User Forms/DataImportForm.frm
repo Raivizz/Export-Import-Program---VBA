@@ -158,7 +158,7 @@ With ImportTableButton
     .Visible = True
     .Left = FilenameLabel.Width * 1.4
 End With
-With FilterButton
+With SearchButton
     .Enabled = True
     .Visible = True
 End With
@@ -185,7 +185,7 @@ PrematureCancel:
 FileOpenCancel:
                 Close #1
                 End Sub
-Private Sub RemoveFiltering_Click()
+Private Sub RemoveSearching_Click()
 For SetVisible = 1 To LabelCount
 Controls("ImportLabel_" & SetVisible).Visible = 1
 Next
@@ -209,11 +209,11 @@ With ImportTableButton
     .Enabled = False
     .Visible = False
 End With
-With FilterButton
+With SearchButton
     .Enabled = False
     .Visible = False
 End With
-With RemoveFiltering
+With RemoveSearching
     .Enabled = False
     .Visible = False
 End With
@@ -224,11 +224,11 @@ End With
 DataImportForm.Height = 85
 DataImportForm.ScrollBars = fmScrollBarsNone
 End Sub
-Private Sub FilterButton_Click()
+Private Sub SearchButton_Click()
 
-Filter_Input = InputBox(DIF_Filter, DIF_FilterInput)
+Search_Input = InputBox(DIF_Search, DIF_SearchInput)
 While i > 0
-If InStr(Controls("ImportLabel_" & i), Filter_Input) = 0 Then
+If InStr(Controls("ImportLabel_" & i), Search_Input) = 0 Then
 Controls("ImportLabel_" & i).Visible = 0
 i = i - 1
 Else
@@ -237,8 +237,8 @@ i = i - 1
 End If
 Wend
 i = LabelCount
-RemoveFiltering.Visible = 1
-RemoveFiltering.Enabled = 1
+RemoveSearching.Visible = 1
+RemoveSearching.Enabled = 1
 End Sub
 Private Sub ImportTableButton_Click()
 ImportTableButton.SpecialEffect = fmSpecialEffectSunken
