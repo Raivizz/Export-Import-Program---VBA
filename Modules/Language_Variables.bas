@@ -21,8 +21,8 @@ Global DIF_TMLError As String
 Global DIF_Invalid As String
 Global DIF_Return As String
 Global DIF_ReturnPrompt As String
-Global DIF_Filter As String
-Global DIF_FilterInput As String
+Global DIF_Search As String
+Global DIF_SearchInput As String
 Global DIF_ImportOK As String
 Global DIF_FDTitle As String
 Global DIF_ExportOK As String
@@ -60,8 +60,8 @@ Private Sub Language_English()
     DataImportForm.FilenameLabel.ControlTipText = "Currently opened file's directory and filename."
     DataImportForm.FilenameLabel.Caption = "No file opened"
     DataImportForm.ImportTableButton.ControlTipText = "Imports the table into the currently open database."
-    DataImportForm.RemoveFiltering.ControlTipText = "Resets filtering and shows all generated labels."
-    DataImportForm.FilterButton.ControlTipText = "Filters the imported data."
+    DataImportForm.RemoveSearching.ControlTipText = "Resets searching and shows all generated labels."
+    DataImportForm.SearchButton.ControlTipText = "Searches through the imported data."
     DataImportForm.DeleteLabels.ControlTipText = "Deletes the table."
     DataImportForm.ReturnToSelection.ControlTipText = "Returns to the Import/Export Wizard."
 'Data Import Form - Variables
@@ -70,8 +70,8 @@ Private Sub Language_English()
     DIF_Invalid = "Invalid text file. Please check the file formatting and try again."
     DIF_Return = "Return to the selection dialogue?"
     DIF_ReturnPrompt = "Return Prompt"
-    DIF_Filter = "Enter a word to filter. Only cells that contain the word will be shown."
-    DIF_FilterInput = "Filter Input"
+    DIF_Search = "Enter a word to search. Only cells that contain the word will be shown."
+    DIF_SearchInput = "Search Input"
     DIF_ImportOK = "Table has been succesfully imported into the database."
     DIF_FDTitle = "Export data"
     DIF_ExportOK = "Data has been succesfully exported"
@@ -111,8 +111,8 @@ Private Sub Language_Gizoogled()
     DataImportForm.FilenameLabel.ControlTipText = "Currizzle openizzle file dirizzle n filename."
     DataImportForm.FilenameLabel.Caption = "No fiznizzle opizzle"
     DataImportForm.ImportTableButton.ControlTipText = "Imports tha table into tha currently open database."
-    DataImportForm.RemoveFiltering.ControlTipText = "Resets chillin' n shows all generatizzle lizzles."
-    DataImportForm.FilterButton.ControlTipText = "Filta tha importizzle data."
+    DataImportForm.RemoveSearching.ControlTipText = "Resets chillin' n shows all generatizzle lizzles."
+    DataImportForm.SearchButton.ControlTipText = "Searches tha importizzle data."
     DataImportForm.DeleteLabels.ControlTipText = "Deletizzles tha tizzle. Death row 187 4 life."
     DataImportForm.ReturnToSelection.ControlTipText = "Returns ta tha Import/Export Wizizzle."
 'D-A-to-tha-izzata Import Fiznorm - Variables
@@ -121,8 +121,8 @@ Private Sub Language_Gizoogled()
     DIF_Invalid = "Invalid tizzay fiznile. Pliznease chizneck tha file formatt'n n try agizzle."
     DIF_Return = "Return ta tha selection dialogue?"
     DIF_ReturnPrompt = "Return Prompt"
-    DIF_Filter = "Enta a wizzord ta poser. Onlizzle cells thizzat contain tha word wizzill be shown."
-    DIF_FilterInput = "Filta Input"
+    DIF_Search = "Enta a wizzord ta poser. Onlizzle cells thizzat contain tha word wizzill be shown."
+    DIF_SearchInput = "Search Input"
     DIF_ImportOK = "T-A-to-tha-izzable has bizzle succesfully imported into tha database."
     DIF_FDTitle = "Export D-to-tha-izzata"
     DIF_ExportOK = "Data has bizzy succesfizzle expizzle"
