@@ -1,0 +1,11 @@
+'Import Test 2 text file
+
+Manufacturer 1 | PC 1 | Motherboard 1 | Generic CPU 1 | Generic GPU 1 | Generic RAM 1 | Generic HDD 1 
+Manufacturer 2 | PC 2 | Motherboard 2 | Generic CPU 2 | Generic GPU 2 | Generic RAM 2 | Generic HDD 2
+Manufacturer 3 | PC 3 | Motherboard 3 | Generic CPU 3 | Generic GPU 3 | Generic RAM 3 | Generic HDD 3
+Manufacturer 4 | PC 4 | Motherboard 4 | Generic CPU 4 | Generic GPU 4 | Generic RAM 4 | Generic HDD 4
+Manufacturer 5 | PC 5 | Motherboard 5 | Generic CPU 5 | Generic GPU 5 | Generic RAM 5 | Generic HDD 5
+Manufacturer 6 | PC 6 | Motherboard 6 | Generic CPU 6 | Generic GPU 6 | Generic RAM 6 | Generic HDD 6
+Manufacturer 7 | PC 7 | Motherboard 7 | Generic CPU 7 | Generic GPU 7 | Generic RAM 7 | Generic HDD 7
+Manufacturer 8 | PC 8 | Motherboard 8 | Generic CPU 8 | Generic GPU 8 | Generic RAM 8 | Generic HDD 8
+Manufacturer 9 | PC 9 | Motherboard 9 | Generic CPU 9 | Generic GPU 9 | Generic RAM 9  | Generic HDD 9

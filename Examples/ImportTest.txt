@@ -1,0 +1,55 @@
+'Categories are predefined: They are, respectively, "Manufacturer | Name | Motherboard | CPU | GPU | RAM | OS HDD"
+'Column count and listing format must be strictly kept the same, otherwise an error will occur.
+'The required column count in a single line is 7. No more, no less.
+'Text file requires at least one proper line to be accepted, otherwise an error occurs.
+
+Manufacturer 1 | PC 1 | Motherboard 1 | Generic CPU 1 | Generic GPU 1 | Generic RAM 1 | Generic HDD 1 
+Manufacturer 2 | PC 2 | Motherboard 2 | Generic CPU 2 | Generic GPU 2 | Generic RAM 2 | Generic HDD 2
+Manufacturer 3 | PC 3 | Motherboard 3 | Generic CPU 3 | Generic GPU 3 | Generic RAM 3 | Generic HDD 3
+Manufacturer 4 | PC 4 | Motherboard 4 | Generic CPU 4 | Generic GPU 4 | Generic RAM 4 | Generic HDD 4
+Manufacturer 5 | PC 5 | Motherboard 5 | Generic CPU 5 | Generic GPU 5 | Generic RAM 5 | Generic HDD 5
+Manufacturer 6 | PC 6 | Motherboard 6 | Generic CPU 6 | Generic GPU 6 | Generic RAM 6 | Generic HDD 6
+Manufacturer 7 | PC 7 | Motherboard 7 | Generic CPU 7 | Generic GPU 7 | Generic RAM 7 | Generic HDD 7
+Manufacturer 8 | PC 8 | Motherboard 8 | Generic CPU 8 | Generic GPU 8 | Generic RAM 8 | Generic HDD 8
+Manufacturer 9 | PC 9 | Motherboard 9 | Generic CPU 9 | Generic GPU 9 | Generic RAM 9  | Generic HDD 9
+Manufacturer 10 | PC 10 | Motherboard 10 | Generic CPU 10 | Generic GPU 10 | Generic RAM 10 | Generic HDD 10
+Manufacturer 11 | PC 11 | Motherboard 11 | Generic CPU 11 | Generic GPU 11 | Generic RAM 11 | Generic HDD 11
+Manufacturer 12 | PC 12 | Motherboard 12 | Generic CPU 12 | Generic GPU 12 | Generic RAM 12 | Generic HDD 12
+Manufacturer 13 | PC 13 | Motherboard 13 | Generic CPU 13 | Generic GPU 13 | Generic RAM 13 | Generic HDD 13
+Manufacturer 14 | PC 14 | Motherboard 14 | Generic CPU 14 | Generic GPU 14 | Generic RAM 14 | Generic HDD 14
+Manufacturer 15 | PC 15 | Motherboard 15 | Generic CPU 15 | Generic GPU 15 | Generic RAM 15 | Generic HDD 15
+Manufacturer 16 | PC 16 | Motherboard 16 | Generic CPU 16 | Generic GPU 16 | Generic RAM 16 | Generic HDD 16
+Manufacturer 17 | PC 17 | Motherboard 17 | Generic CPU 17 | Generic GPU 17 | Generic RAM 17 | Generic HDD 17
+Manufacturer 18 | PC 18 | Motherboard 18 | Generic CPU 18 | Generic GPU 18 | Generic RAM 18 | Generic HDD 18
+Manufacturer 19 | PC 19 | Motherboard 19 | Generic CPU 19 | Generic GPU 19 | Generic RAM 19 | Generic HDD 19
+Manufacturer 20 | PC 20 | Motherboard 20 | Generic CPU 20 | Generic GPU 20 | Generic RAM 20 | Generic HDD 20
+Manufacturer 21 | PC 21 | Motherboard 21 | Generic CPU 21 | Generic GPU 21 | Generic RAM 21 | Generic HDD 21
+Manufacturer 22 | PC 22 | Motherboard 22 | Generic CPU 22 | Generic GPU 22 | Generic RAM 22 | Generic HDD 22
+Manufacturer 23 | PC 23 | Motherboard 23 | Generic CPU 23 | Generic GPU 23 | Generic RAM 23 | Generic HDD 23
+Manufacturer 24 | PC 24 | Motherboard 24 | Generic CPU 24 | Generic GPU 24 | Generic RAM 24 | Generic HDD 24
+Manufacturer 25 | PC 25 | Motherboard 25 | Generic CPU 25 | Generic GPU 25 | Generic RAM 25 | Generic HDD 25
+Manufacturer 26 | PC 26 | Motherboard 26 | Generic CPU 26 | Generic GPU 26 | Generic RAM 26 | Generic HDD 26
+Manufacturer 27 | PC 27 | Motherboard 27 | Generic CPU 27 | Generic GPU 27 | Generic RAM 27 | Generic HDD 27
+Manufacturer 28 | PC 28 | Motherboard 28 | Generic CPU 28 | Generic GPU 28 | Generic RAM 28 | Generic HDD 28
+Manufacturer 29 | PC 29 | Motherboard 29 | Generic CPU 29 | Generic GPU 29 | Generic RAM 29 | Generic HDD 29
+Manufacturer 30 | PC 30 | Motherboard 30 | Generic CPU 30 | Generic GPU 30 | Generic RAM 30 | Generic HDD 30
+Manufacturer 31 | PC 31 | Motherboard 31 | Generic CPU 31 | Generic GPU 31 | Generic RAM 31 | Generic HDD 31
+Manufacturer 32 | PC 32 | Motherboard 32 | Generic CPU 32 | Generic GPU 32 | Generic RAM 32 | Generic HDD 32
+Manufacturer 33 | PC 33 | Motherboard 33 | Generic CPU 33 | Generic GPU 33 | Generic RAM 33 | Generic HDD 33
+Manufacturer 34 | PC 34 | Motherboard 34 | Generic CPU 34 | Generic GPU 34 | Generic RAM 34 | Generic HDD 34
+Manufacturer 35 | PC 35 | Motherboard 35 | Generic CPU 35 | Generic GPU 35 | Generic RAM 35 | Generic HDD 35
+Manufacturer 36 | PC 36 | Motherboard 36 | Generic CPU 36 | Generic GPU 36 | Generic RAM 36 | Generic HDD 36
+Manufacturer 37 | PC 37 | Motherboard 37 | Generic CPU 37 | Generic GPU 37 | Generic RAM 37 | Generic HDD 37
+Manufacturer 38 | PC 38 | Motherboard 38 | Generic CPU 38 | Generic GPU 38 | Generic RAM 38 | Generic HDD 38
+Manufacturer 39 | PC 39 | Motherboard 39 | Generic CPU 39 | Generic GPU 39 | Generic RAM 39 | Generic HDD 39
+Manufacturer 40 | PC 40 | Motherboard 40 | Generic CPU 40 | Generic GPU 40 | Generic RAM 40 | Generic HDD 40
+Manufacturer 41 | PC 41 | Motherboard 41 | Generic CPU 41 | Generic GPU 41 | Generic RAM 41 | Generic HDD 41
+Manufacturer 42 | PC 42 | Motherboard 42 | Generic CPU 42 | Generic GPU 42 | Generic RAM 42 | Generic HDD 42
+Manufacturer 43 | PC 43 | Motherboard 43 | Generic CPU 43 | Generic GPU 43 | Generic RAM 43 | Generic HDD 43
+Manufacturer 44 | PC 44 | Motherboard 44 | Generic CPU 44 | Generic GPU 44 | Generic RAM 44 | Generic HDD 44
+Manufacturer 45 | PC 45 | Motherboard 45 | Generic CPU 45 | Generic GPU 45 | Generic RAM 45 | Generic HDD 45
+Manufacturer 46 | PC 46 | Motherboard 46 | Generic CPU 46 | Generic GPU 46 | Generic RAM 46 | Generic HDD 46
+Manufacturer 47 | PC 47 | Motherboard 47 | Generic CPU 47 | Generic GPU 47 | Generic RAM 47 | Generic HDD 47
+Manufacturer 48 | PC 48 | Motherboard 48 | Generic CPU 48 | Generic GPU 48 | Generic RAM 48 | Generic HDD 48
+Manufacturer 49 | PC 49 | Motherboard 49 | Generic CPU 49 | Generic GPU 49 | Generic RAM 49 | Generic HDD 49
+Manufacturer 50 | PC 50 | Motherboard 50 | Generic CPU 50 | Generic GPU 50 | Generic RAM 50 | Generic HDD 50
