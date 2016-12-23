@@ -20,20 +20,24 @@ Application.ScreenUpdating = False
 
 'Checks if the current opened worksheet is empty
 If WorksheetFunction.CountA(Cells) = 0 Then
+Call sndPlaySound32("C:\windows\media\Windows Error.wav", 1)
 MsgBox SD_NoData
 GoTo ExportFileEnd
 End If
 
 If UserType = "Standard" Then
 If IsNumeric(UserNameInput.Value) = True Then
+Call sndPlaySound32("C:\windows\media\Windows Error.wav", 1)
 MsgBox SD_NameNum
 GoTo ExportFileEnd
 End If
 If IsNumeric(UserSurnameInput.Value) = True Then
+Call sndPlaySound32("C:\windows\media\Windows Error.wav", 1)
 MsgBox SD_SurnNum
 GoTo ExportFileEnd
 End If
 If IsNumeric(CompanyNameInput.Value) = True Then
+Call sndPlaySound32("C:\windows\media\Windows Error.wav", 1)
 MsgBox SD_CompNum
 GoTo ExportFileEnd
 End If
@@ -145,7 +149,7 @@ Sheets("ExportSheet").Copy
 Application.ActiveWorkbook.SaveAs filename, FileFormat:=51
 Application.ActiveWorkbook.Close False
 
-MsgBox SD_ExportSuccessful
+MsgBox SD_ExportSuccessful, vbInformation
 
 ExportFileEnd:
 Sheets("MainSheet").Visible = True
@@ -178,20 +182,24 @@ Private Sub ExportDataButton_Click()
 
 'Checks if the current opened worksheet is empty
 If WorksheetFunction.CountA(Cells) = 0 Then
+Call sndPlaySound32("C:\windows\media\Windows Critical Stop.wav", 1)
 MsgBox SD_NoData
 GoTo ExportFileEnd
 End If
 
 If UserType = "Standard" Then
 If IsNumeric(UserNameInput.Value) = True Then
+Call sndPlaySound32("C:\windows\media\Windows Error.wav", 1)
 MsgBox SD_NameNum
 GoTo ExportFileEnd
 End If
 If IsNumeric(UserSurnameInput.Value) = True Then
+Call sndPlaySound32("C:\windows\media\Windows Error.wav", 1)
 MsgBox SD_SurnNum
 GoTo ExportFileEnd
 End If
 If IsNumeric(CompanyNameInput.Value) = True Then
+Call sndPlaySound32("C:\windows\media\Windows Error.wav", 1)
 MsgBox SD_CompNum
 GoTo ExportFileEnd
 End If
@@ -252,7 +260,7 @@ End If
         i = i + 1
     Loop
 
-MsgBox SD_ExportSuccessful
+MsgBox SD_ExportSuccessful, vbInformation
 ExportFileEnd:
                 Close #1
                 End Sub

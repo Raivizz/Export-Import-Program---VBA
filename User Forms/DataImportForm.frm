@@ -107,7 +107,10 @@ Set AddLabel = DataImportForm.Controls.Add("Forms.TextBox.1", "ImportLabel_" & i
     Label_OverFlowProtection = Label_OverFlowProtection + 1
     Left_DynamicVar = Left_DynamicVar + 90
     If Label_OverFlowProtection > 7 Then
+        Call sndPlaySound32("C:\windows\media\Windows Critical Stop.wav", 1)
         MsgBox DIF_TMLError
+        DeleteLabels_Click
+        
         GoTo PrematureCancel
     Else
     i = i + 1
@@ -126,6 +129,7 @@ Loop
 'e.g. column count is not 7, separators are missing, etc.
 If i = 0 Or Label_OverFlowProtection < 7 Then
 DeleteLabels_Click
+Call sndPlaySound32("C:\windows\media\Windows Critical Stop.wav", 1)
 MsgBox DIF_Invalid
 Close #1
 GoTo OpenFileProcess
@@ -268,7 +272,7 @@ CurrentRow_Offset = 0
 RowRowFightThePowa = 0
 Loop
 
-MsgBox DIF_ImportOK
+MsgBox DIF_ImportOK, vbInformation
 ImportTableButton.SpecialEffect = fmSpecialEffectRaised
 
 End Sub
@@ -300,7 +304,7 @@ Loop
 
 End If
 
-MsgBox DIF_ExportOK
+MsgBox DIF_ExportOK, vbInformation
 
 EndSaving:
 Close #1
